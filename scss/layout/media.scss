@@ -1,0 +1,252 @@
+@media (max-width: $escritorio) {
+    #header {
+        .navegacion {
+            .logo {
+                width: 150px;
+            }
+            #navbar {
+                margin-left: 10px;
+                margin-top: 10px;
+                li {
+                    a {
+                        font-size: 17px;
+                    }
+                }
+                .searchbar-container {
+                    .bar_search {
+                        width: 300px;
+                        height: 27px;
+                        &::placeholder {
+                            font-size: 14px;
+                            font-weight: 600;
+                        }
+                    }
+                    .button_search {
+                        height: 10px;
+                        padding-bottom: 27px;
+                        font-size: 19px;
+                    }
+                }   
+            }
+        }
+    } 
+}
+
+@media (max-width: $laptop) {
+    #header {
+        padding: 10px 14px;
+        .navegacion {
+            .logo {
+                width: 130px;
+            }
+            #navbar {
+                margin-left: 0;
+                margin-top: 10px;
+    
+                li {
+                    font-size: 30px;
+                    padding-left: 10px;
+    
+                    a {
+                        font-size: 16px;
+                    }
+                }
+                .searchbar-container {
+                    .bar_search {
+                        width: 250px;
+                        height: 25px;        
+                        &::placeholder {
+                            font-size: 14px;
+                            font-weight: 600;
+                        }
+        
+                    }
+        
+                    .button_search {
+                        height: 10px;
+                        padding-bottom: 25px;
+                        font-size: 19px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $tablet) {
+    #header {
+        padding: 10px 14px;
+        .navegacion {
+            .logo {
+                width: 100px;
+            }
+            #navbar {
+                margin-left: 0;
+                margin-top: 10px;
+    
+                li {
+                    a {
+                        font-size: 13px;
+                    }
+                }
+                .searchbar-container {
+                    .bar_search {
+                        width: 185px;
+                        height: 25px;        
+                        &::placeholder {
+                            font-size: 10px;
+                            font-weight: 700;
+                        }
+                    }
+                    .button_search {
+                        height: 9px;
+                        padding-bottom: 25px;
+                        font-size: 17px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        .container__footer {
+            justify-content: center;
+            padding: 72px;
+    
+            .box__footer {
+                padding: 72px;
+            }
+        }
+    }
+    
+}
+
+@media (max-width: $celular) {
+    #header {
+        padding: 10px 14px;
+
+        .navegacion {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-bottom: 10px;
+            .logo {
+                width: 150px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 10px
+            }
+            #navbar {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 10px;    
+                li {
+                    font-size: 14px;
+                    align-items: center;
+                    a {
+                        font-size: 13px;
+                        padding: 5px 0;
+                    }
+                }
+                .searchbar-container {
+                    display: flex;
+                    order: 5;        
+                    .bar_search {
+                        width: 185px;
+                        height: 25px;
+                        border-top-left-radius: 15px;
+                        border-bottom-left-radius: 15px;
+                        &::placeholder {
+                            align-items: center;
+                            text-align: center;
+                            font-size: 9px;
+                            font-weight: 700;
+                        }
+                    }        
+                    .button_search {
+                        height: 9px;
+                        padding-bottom: 25px;
+                        font-size: 17px;
+                        margin-right: 10px;
+                    }
+                    
+                }
+                .nav-item {
+                    padding: 5px 0;
+                }
+                #carrito {
+                    .list-group-item {
+                        font-size: 14px;
+                    }
+                }
+                
+            }
+        }
+        
+        
+    }
+    .service {
+        #feature {
+            justify-content: center;
+            align-items: center;
+            .box__footer {
+                width: 46%;
+                margin: 15px 1%;
+            } 
+        }
+        .section-p1 {
+            padding: 0;
+        }
+    }
+    .formulario-margin {
+        .formulario {
+            fieldset {
+                .contenedor-campos {
+                    display: block;
+                }
+            }
+        }
+    }
+    .footer {
+        .container__footer {
+            justify-content: center; 
+            align-items: center;
+            text-align: center;
+            padding: 16px; 
+    
+            .box__footer {
+                text-align: center;
+                padding: 16px; 
+            }
+            .vertical {
+                display: none;
+            }
+        }
+    }
+    
+    
+    .card {
+        width: 50% !important;
+        .card-body {
+            width: 80%;
+            .card-title {
+                margin-top: 15px;
+            }
+        }
+        
+    }
+    .nosotros {
+        .nosotros__img {
+            width: 300px;
+        }
+        p {
+            margin: 15px 15px 15px 25px;
+            padding: 10px 25px;
+        }
+        
+    }
+}
